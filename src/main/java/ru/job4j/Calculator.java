@@ -9,7 +9,7 @@ public class Calculator {
     }
     public static double sumSubDiv(double first, double second) {
         return ru.job4j.math.MathFunction.subtraction(first, second)
-                + ru.job4j.math.MathFunction.divide(first, second);
+                + ru.job4j.math.MathFunction.divide(first, second);1.1. Что такое import [#504773 #282219]
     }
     public static double sumAll(double first, double second) {
         return ru.job4j.math.MathFunction.sum(first, second)
@@ -22,7 +22,6 @@ public class Calculator {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Сумма вычитания и деления: " + sumSubDiv(10, 30));
         System.out.println("Сумма всех операций: " + sumAll(10, 40));
-
 
         int one = 1;
         int two = 2;
