@@ -9,7 +9,7 @@ public class Calculator {
     }
     public static double sumSubDiv(double first, double second) {
         return ru.job4j.math.MathFunction.subtraction(first, second)
-                + ru.job4j.math.MathFunction.divide(first, second);1.1. Что такое import [#504773 #282219]
+                + ru.job4j.math.MathFunction.divide(first, second);
     }
     public static double sumAll(double first, double second) {
         return ru.job4j.math.MathFunction.sum(first, second)
