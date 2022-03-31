@@ -13,6 +13,7 @@ public class ConverterTest {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
+
     @Test
     public void whenConvert5000RblThen83dot3333Dlr() {
         float in = 5000;
@@ -22,6 +23,7 @@ public class ConverterTest {
         Assert.assertEquals(expected, out, eps);
 
     }
+
     @Test
     public void whenConvert7352RblThen122dot53333Dlr() {
         float in = 7352;
@@ -30,6 +32,7 @@ public class ConverterTest {
         float eps =0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
+
     @Test
     public void whenConvert0RblThen0Dlr() {
         float in = 0;
