@@ -7,10 +7,12 @@ public class Calculator {
         return ru.job4j.math.MathFunction.sum(first, second)
                 + ru.job4j.math.MathFunction.multiply(first, second);
     }
+
     public static double sumSubDiv(double first, double second) {
         return ru.job4j.math.MathFunction.subtraction(first, second)
                 + ru.job4j.math.MathFunction.divide(first, second);
     }
+
     public static double sumAll(double first, double second) {
         return ru.job4j.math.MathFunction.sum(first, second)
                 + ru.job4j.math.MathFunction.multiply(first, second)
