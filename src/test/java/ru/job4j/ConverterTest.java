@@ -29,7 +29,7 @@ public class ConverterTest {
         float in = 7352;
         float expected = (float) 122.53333;
         float out = Converter.rubleToDollar(in);
-        float eps =0.0001f;
+        float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
 
@@ -38,7 +38,7 @@ public class ConverterTest {
         float in = 0;
         float expected = 0;
         float out = Converter.rubleToDollar(in);
-        float eps =0.0001f;
+        float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
 }
