@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class ChessBoard {
 
-    public static int way(int x1, int y1, int x2, int y2) {
+    public static int way1(int x1, int y1, int x2, int y2) {
         int rsl = 0;
         if (isValid(x1) && isValid(x2)
                 && isValid(y1) && isValid(y2)) {
@@ -19,6 +19,6 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        ChessBoard.way(1, 1, 2, 2);
+        ChessBoard.way1(1, 1, 2, 2);
     }
 }
