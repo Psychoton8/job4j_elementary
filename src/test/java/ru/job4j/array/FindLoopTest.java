@@ -37,7 +37,7 @@ public class FindLoopTest {
 
     @Test
     public void whenDiapasonHas10Then1() {
-        int [] data = new int[] {5, 10, 2, 3, 47, 4, 1, 1, 4};
+        int[] data = new int[] {5, 10, 2, 3, 47, 4, 1, 1, 4};
         int el = 10;
         int start = 0;
         int finish = 5;
